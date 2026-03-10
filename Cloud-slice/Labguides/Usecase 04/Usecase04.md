@@ -1,6 +1,4 @@
-**Usecase 04-Integrate Fabric Data Agent with Microsoft Teams for
-actionable insights and agent-to-agent collaboration using Copilot
-Studio**
+## Usecase 04-Integrate Fabric Data Agent with Microsoft Teams for actionable insights and agent-to-agent collaboration using Copilot Studio
 
 **Introduction**
 
@@ -84,10 +82,13 @@ reports.
 
 1.  Open your browser, navigate to the address bar, and type or paste
     the following
-    URL:+++https://app.fabric.microsoft.com/+++ press the **Enter** button
+    URL:**+++https://app.fabric.microsoft.com/+++** press the **Enter** button
     and sign in with your credentials
 
-[TABLE]
+    |   |   |
+    |---|---|
+    | Username | +++@lab.CloudPortalCredential(User1).Username+++ |
+    | Password | +++@lab.CloudPortalCredential(User1).Password+++ |
 
 2.  Fabric home page, select **+New workspace** tile.
 
@@ -97,7 +98,12 @@ reports.
 3.  In the **Create a workspace** pane that appears on the right side,
     enter the following details, and click on the **Apply** button.
 
-[TABLE]
+| Property | Value |
+|---------|-------|
+| Name | `+++Fabric-Copilot-XXXXX+++` *(XXXXX can be Lab instance ID)* |
+| Advanced | Under **License mode**, select **Fabric** |
+| Default storage format | Small dataset storage format |
+| Template apps | Check **Develop template apps** |
 
 > ![](./media/image2.png)
 
@@ -278,34 +284,25 @@ before **fabricagent_lakehouse**.
     the **test pane** (on the right where it says **Test the agent's
     responses**):
 
-> Meta-Prompt: Generate Agent-Level Instructions:
->
-> Analyze your available data sources and create agent-level
-> instructions for yourself (max 15000 chars).
->
-> Objective: {AGENT_OBJECTIVE}
->
-> Users: {USER_PERSONA}
->
-> Examine your data sources: list all sources, types, and primary use.
-> Analyze domain, time coverage, and main themes.
->
-> Generate instructions with:
->
-> \## Objective
->
-> \## Data Sources (list with priority)
->
-> \## Key Terminology (infer from columns/measures)
->
-> \## Response Guidelines
->
-> Style: {RESPONSE_STYLE}
->
-> \## Handling Common Topics (3-5 based on available data)
->
-> Custom terms: {CUSTOM_TERMINOLOGY}
+```
+Meta-Prompt: Generate Agent-Level Instructions:
+ Analyze your available data sources and create agent-level instructions for yourself (max 15000 chars).
 
+ Objective: {AGENT_OBJECTIVE}
+ Users: {USER_PERSONA}
+
+ Examine your data sources: list all sources, types, and primary use. Analyze domain, time coverage, and main themes.
+
+ Generate instructions with:
+ ## Objective
+ ## Data Sources (list with priority)
+ ## Key Terminology (infer from columns/measures)
+ ## Response Guidelines
+ Style: {RESPONSE_STYLE}
+ ## Handling Common Topics (3-5 based on available data)
+
+ Custom terms: {CUSTOM_TERMINOLOGY}
+```
 When using this meta-prompt, replace the variables manually in the
 prompt as per the values below **OR** paste these in the Test:
 
@@ -323,13 +320,13 @@ prompt as per the values below **OR** paste these in the Test:
 
 8.  Test the enhanced agent with more complex queries:
 
-> +++How many orders are placed each day?+++
+ +++How many orders are placed each day?+++
 
 ![](./media/image41.png)
 
 ![](./media/image42.png)
 
-> +++**Which products have the lowest stock levels?**+++
+ **+++Which products have the lowest stock levels?+++**
 
 ![](./media/image43.png)
 
@@ -339,21 +336,18 @@ prompt as per the values below **OR** paste these in the Test:
 
 1.  Generate the agent description using this meta-prompt inside the
     test pane of your Fabric Agent
+```
+ Meta-Prompt: Generate Agent Description
+ Create a 1-2 sentence description of yourself as a Fabric Data Agent (max 200 chars).
 
-> Meta-Prompt: Generate Agent Description
->
-> Create a 1-2 sentence description of yourself as a Fabric Data Agent
-> (max 200 chars).
->
-> Analyze your data sources and describe: what data domain you cover and
-> what questions you answer.
->
-> Example: "Fabric Data Agent for retail sales. Answers questions about
-> revenue, products, customers, and orders"
->
-> Output plain text only.
->
-> ![](./media/image45.png)
+ Analyze your data sources and describe: what data domain you cover and what questions you answer.
+
+ Example: "Fabric Data Agent for retail sales. Answers questions about revenue, products, customers, and orders"
+
+ Output plain text only.
+```
+
+ ![](./media/image45.png)
 
 2.  Click **Publish** and paste the generated description in the purpose
     and capabilities field.
@@ -364,7 +358,7 @@ prompt as per the values below **OR** paste these in the Test:
 
 # Exercise 2: Connecting Fabric Agent to Copilot Studio
 
-## This exercise focuses on enabling Copilot Studio to communicate with the Fabric Data Agent. You will create a Copilot agent, configure its behavior, link it to the Fabric Agent, and ensure that both agents collaborate to produce richer insights. This establishes multi‑agent communication across platforms.
+This exercise focuses on enabling Copilot Studio to communicate with the Fabric Data Agent. You will create a Copilot agent, configure its behavior, link it to the Fabric Agent, and ensure that both agents collaborate to produce richer insights. This establishes multi‑agent communication across platforms.
 
 ## Task 1:Creating the Copilot Studio Agent
 
@@ -406,7 +400,7 @@ prompt as per the values below **OR** paste these in the Test:
 >
 > ![](./media/image56.png)
 
-1.  Click **Publish** in the top-right corner.
+6.  Click **Publish** in the top-right corner.
 
 > ![](./media/image57.png)
 >
@@ -419,8 +413,7 @@ prompt as per the values below **OR** paste these in the Test:
 
 > ![](./media/image59.png)
 
-2.  Click **Connect to an external agent** and select **Microsft Fabric
-    (preview)**.
+2.  Click **Connect to an external agent** and select **Microsft Fabric (preview)**.
 
 > ![](./media/image60.png)
 
@@ -430,8 +423,7 @@ prompt as per the values below **OR** paste these in the Test:
 
 > ![](./media/image61.png)
 
-4.  Click **Create** and sign in using the same account used for this
-    lab
+4.  Click **Create** and sign in using the same account used for this lab
 
 ![](./media/image62.png)
 
@@ -465,7 +457,7 @@ prompt as per the values below **OR** paste these in the Test:
 
 1.  Test the Fabric Data Agent connection with progressive queries:
 
-> +++ **What are the top 10 highest value orders?**+++
+   **+++What are the top 10 highest value orders?+++**
 
 ![](./media/image70.png)
 
@@ -488,14 +480,13 @@ complete.
 
 ![](./media/image76.png)
 
-> +++**What percentage of orders use credit card vs PayPal vs debit
-> card?**+++
+  +++**What percentage of orders use credit card vs PayPal vs debit card?**+++
 
 ![](./media/image77.png)
 
 ![](./media/image78.png)
 
-> +++**What is the revenue by payment method?**+++
+  +++**What is the revenue by payment method?**+++
 
 ![](./media/image79.png)
 
@@ -503,7 +494,7 @@ complete.
 
 # Exercise 3: Connect the Fabric Data Agent to Teams
 
-## In this exercise, you will publish the Copilot agent to Teams, enabling business users to access enterprise data directly from within their collaboration app. You will validate the agent’s functionality by running several BI queries and observing real‑time responses inside Teams.
+In this exercise, you will publish the Copilot agent to Teams, enabling business users to access enterprise data directly from within their collaboration app. You will validate the agent’s functionality by running several BI queries and observing real‑time responses inside Teams.
 
 ## Task 1: Add Copilot Capabilities
 
@@ -562,8 +553,8 @@ complete.
 
 1.  Test the Fabric Data Agent connection with progressive queries:
 
-> +++What is the revenue trend over time?+++
->
+  +++What is the revenue trend over time?+++
+ 
 > ![](./media/image96.png)
 
 2.  Click **Allow** to grant the required permissions
@@ -572,7 +563,7 @@ complete.
 >
 > ![](./media/image98.png)
 >
-> +++What are the top 10 highest value orders?+++
+  +++What are the top 10 highest value orders?+++
 
 ![](./media/image99.png)
 
@@ -596,3 +587,4 @@ product insights, and customer behavior without writing queries. The
 solution demonstrates how AI agents can retrieve data from Fabric
 Lakehouse, enrich responses using instructions, and work alongside other
 agents to streamline business intelligence workflows.
+
