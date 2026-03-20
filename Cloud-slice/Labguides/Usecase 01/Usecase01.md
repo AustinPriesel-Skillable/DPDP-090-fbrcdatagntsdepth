@@ -237,11 +237,11 @@ questions.
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image29.png)
 
-> ![](./media/image30.png)
+ ![](./media/image30.png)
 
 5.  In AI-agent page, select **Add a data source**.
 
-> ![](./media/image31.png)
+ ![](./media/image31.png)
 
 6.  In the **OneLake catalog** tab, select the **AI-Fabric_lakehouse
     lakehouse** and select **Add**.
