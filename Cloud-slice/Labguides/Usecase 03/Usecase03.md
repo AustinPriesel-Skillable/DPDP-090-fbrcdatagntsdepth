@@ -351,8 +351,10 @@ solution.
 16. Run the bash script from the output of the azd deployment. Replace
     the with your Fabric workspace Id created in the previous steps. The
     script will look like the following:
+```
+python scripts/00_build_solution.py --from 02 --fabric-workspace-id <your-workspace-id>
+```
 
-+++bash ./infra/scripts/fabric_scripts/run_fabric_items_scripts.sh <fabric-workspaceId>+++
 
 ![](./media/image43.png)
 
