@@ -56,28 +56,29 @@ data‑driven answers instantly.
 1.  In your VM, navigate and click in the **Search bar**, type
     **Settings** and then click on **Settings** under **Best match**.
 
-![A screenshot of a computer Description automatically generated](./instructions337798/image1.png)
+> ![A screenshot of a computer Description automatically
+> generated](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image1.png)
 
 2.  On Settings window, navigate and click on **Time & language**.
 
 ![A screenshot of a computer Description automatically
-generated](./instructions337798/image2.png)
+generated](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image2.png)
 
 3.  On **Time & language** page, navigate and click on **Date & time**.
 
 ![A screenshot of a computer Description automatically
-generated](./instructions337798/image3.png)
+generated](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image3.png)
 
 4.  Scroll down and navigate to **Additional settings** section, then
     click on **Sync now** button. It will take 3-5 minutes to sync.
 
 ![A screenshot of a computer Description automatically
-generated](./instructions337798/image4.png)
+generated](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image4.png)
 
 5.  Close the **Settings** window.
 
 ![A screenshot of a computer Description automatically
-generated](./instructions337798/image5.png)
+generated](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image5.png)
 
 ## Task 1: **Create a Fabric workspace**
 
@@ -90,18 +91,18 @@ throughout the use case.
     the following URL:+++https://app.fabric.microsoft.com/+++ then press
     the **Enter** button.
 
-  ![](./instructions337798/image6.png)
+![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image6.png)
 
 2.  In the **Microsoft Fabric** window, enter your credentials, and
     click on the **Submit** button.
 
-  |  |   |
-  |---|----|
-  |Username	|+++@lab.CloudPortalCredential(User1).Username+++|
-  |TAP	|+++@lab.CloudPortalCredential(User1).AccessToken+++|
+    |  |   |
+    |---|----|
+    |Username	|+++@lab.CloudPortalCredential(User1).Username+++|
+    |TAP	|+++@lab.CloudPortalCredential(User1).AccessToken+++|
 
-  ![A screenshot of a computer AI-generated content may be
-  incorrect.](./instructions337798/image7.png)
+![A screenshot of a computer AI-generated content may be
+incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image7.png)
 
 4.  In **Stay signed in?** window, click on the **Yes** button.
 
@@ -109,11 +110,11 @@ throughout the use case.
 
 5.  You'll be directed to Power BI Home page.
 
-  ![](./instructions337798/image9.png)
+> ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image9.png)
 
 6.  Fabric home page, select **+New workspace** tile.
 
-> ![](./instructions337798/image10.png)
+> ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image10.png)
 
 7.  In the **Create a workspace** pane that appears on the right side,
     enter the following details, and click on the **Apply** button.
@@ -125,20 +126,20 @@ throughout the use case.
 | Default storage format | Small dataset storage format |
 | Template apps | Check **Develop template apps** |
 
-![](./instructions337798/image11.png)
+![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image11.png)
 
 > [!note] To find your lab instant ID, select 'Help' and copy the instant
 ID. ![A screenshot of a computer Description automatically
-generated](./instructions337798/image12.png)
+generated](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image12.png)
 
 
 
-> ![](./instructions337798/image13.png)
+> ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image13.png)
 
 8.  Wait for the deployment to complete. It takes 1-2 minutes to
     complete.
 
-> ![](./instructions337798/image14.png)
+> ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image14.png)
 
 ## Task 2: Create a lakehouse with AdventureWorksLH
 
@@ -149,11 +150,11 @@ becomes the structured data foundation that the Data Agent will query.
 1.  Create a new lakehouse by clicking on the **+New item** button in
     the navigation bar.
 
-![](./instructions337798/image15.png)
+![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image15.png)
 
 2.  Click on the "**Lakehouse**" tile.
 
-![](./instructions337798/image16.png)
+![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image16.png)
 
 3.  In the **New lakehouse** dialog box,
     enter +++**AdventureWorksLH+++** in the **Name** field, click on
@@ -161,19 +162,19 @@ becomes the structured data foundation that the Data Agent will query.
 
 >[!Note] Ensure to remove space before **AdventureWorksLH**
 
-![](./instructions337798/image17.png)
+![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image17.png)
 
-![](./instructions337798/image18.png)
+![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image18.png)
 
 4.  You will see a notification stating **Successfully created SQL
     endpoint**.
 
-![](./instructions337798/image19.png)
+![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image19.png)
 
 5.  Create a new notebook in the workspace where you want to create your
     Fabric data agent.
 
-> ![](./instructions337798/image20.png)
+> ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image20.png)
 
 6.  Update the code in the **cell** with the following code and click
     on **▷ Run cell** that appears to the left of the cell.
@@ -194,15 +195,15 @@ for table in (pbar := tqdm(df_tables['table'].values)):
     # save as lakehouse table
     spark.createDataFrame(df).write.mode('overwrite').saveAsTable(table)
 ```
-![](./instructions337798/image21.png)
+![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image21.png)
 
-![](./instructions337798/image22.png)
+![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image22.png)
 
-![](./instructions337798/image23.png)
+![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image23.png)
 
-![](./instructions337798/image24.png)
+![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image24.png)
 
-![](./instructions337798/image25.png)
+![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image25.png)
 
 ## Task 3: Create Data agent
 
@@ -214,34 +215,34 @@ questions.
 1.  Now, click on **Fabric Data agent-@lab.LabInstance.Id** on the left-sided
     navigation pane.
 
-![](./instructions337798/image26.png)
+![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image26.png)
 
 2.  In the **Fabric** home page, select **+New item.**
 
-![](./instructions337798/image27.png)
+![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image27.png)
 
 3.  In the **Filter by item type** search box, enter **+++data agent+++** and select the **Data agent.**
 
-![](./instructions337798/image28.png)
+![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image28.png)
 
 4.  Enter **+++AI-agent+++** as the Data agent name and
     select **Create**.
 
 ![A screenshot of a computer AI-generated content may be
-incorrect.](./instructions337798/image29.png)
+incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image29.png)
 
-> ![](./instructions337798/image30.png)
+> ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image30.png)
 
 5.  In AI-agent page, select **Add a data source**.
 
-> ![](./instructions337798/image31.png)
+> ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image31.png)
 
 6.  In the **OneLake catalog** tab, select the **AI-Fabric_lakehouse
     lakehouse** and select **Add**.
 
-![](./instructions337798/image32.png)
+![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image32.png)
 
-![](./instructions337798/image33.png)
+![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image33.png)
 
 7.  You must then select the tables for which you want the AI skill to
     have available access.
@@ -268,7 +269,7 @@ This lab uses these tables:
 
 - FactResellerSales
 
-![](./instructions337798/image34.png)
+![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image34.png)
 
 ## Task 4: Provide instructions
 
@@ -283,18 +284,18 @@ responses for real‑world queries.
 
 2.  For instance, for the question +++**What is the most sold product?+++**
 
-![](./instructions337798/image35.png)
+![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image35.png)
 
-> ![](./instructions337798/image36.png)
+> ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image36.png)
 
 3.  Copy the question and SQL queries and paste them in a notepad and
     then Save the notepad to use the information in the upcoming tasks.
 
 ![A screenshot of a computer Description automatically
-generated](./instructions337798/image37.png)
+generated](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image37.png)
 
 ![A screenshot of a computer Description automatically
-generated](./instructions337798/image38.png)
+generated](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image38.png)
 
 4.  Select **FactResellerSales** and enter the following text and click
     on the **Submit icon** as shown in the below image.
@@ -302,10 +303,10 @@ generated](./instructions337798/image38.png)
 **+++What is our most sold product?+++**
 
 ![A screenshot of a computer Description automatically
-generated](./instructions337798/image39.png)
+generated](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image39.png)
 
 ![A screenshot of a computer Description automatically
-generated](./instructions337798/image40.png)
+generated](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image40.png)
 
 As you continue to experiment with queries, you should add more
 instructions.
@@ -316,20 +317,20 @@ instructions.
 **+++how many active customers did we have June 1st, 2013?+++**
 
 ![A screenshot of a computer Description automatically
-generated](./instructions337798/image41.png)
+generated](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image41.png)
 
 ![A screenshot of a computer Description automatically
-generated](./instructions337798/image42.png)
+generated](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image42.png)
 
 6.  Copy the all question and SQL queries and paste them in a notepad
     and then Save the notepad to use the information in the upcoming
     tasks.
 
 > ![A screenshot of a computer Description automatically
-> generated](./instructions337798/image43.png)
+> generated](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image43.png)
 
 ![A screenshot of a computer Description automatically
-generated](./instructions337798/image44.png)
+generated](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image44.png)
 
 7.  Select the **dimdate**, **FactInternetSales** , enter the following
     text and click on the **Submit icon:**
@@ -337,10 +338,10 @@ generated](./instructions337798/image44.png)
 **+++what are the monthly sales trends for the last year?+++**
 
 ![A screenshot of a computer AI-generated content may be
-incorrect.](./instructions337798/image45.png)
+incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image45.png)
 
 > ![A screenshot of a computer Description automatically
-> generated](./instructions337798/image46.png)
+> generated](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image46.png)
 
 8.  Select the **dimproduct,** **FactInternetSales** , enter the
     following text and click on the **Submit icon:**
@@ -348,10 +349,10 @@ incorrect.](./instructions337798/image45.png)
 **+++which product category had the highest average sales price?+++**
 
 > ![A screenshot of a computer Description automatically
-> generated](./instructions337798/image47.png)
+> generated](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image47.png)
 
 ![A screenshot of a computer Description automatically
-generated](./instructions337798/image48.png)
+generated](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image48.png)
 
 Part of the problem is that "active customer" doesn't have a formal
 definition. More instructions in the notes to the model text box might
@@ -361,18 +362,18 @@ sure that the AI handles the question correctly.
 7.  The relevant query is moderately complex, so provide an example by
     selecting the **Example queries** button from the **Setup** pane.
 
-> ![](./instructions337798/image49.png)
+> ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image49.png)
 
 8.  In the Example queries tab, select the **Add example.**
 
-![](./instructions337798/image50.png)
+![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image50.png)
 
 9.  Here, you should add Example queries for the lakehouse data source
     that you have created. Add the below question in the question field:
 
 **+++What is the most sold product?+++**
 
-> ![](./instructions337798/image51.png)
+> ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image51.png)
 
 10. Add the query1 that you have saved in the notepad:
 
@@ -382,17 +383,17 @@ FROM [dbo].[factinternetsales]
 GROUP BY ProductKey
 ORDER BY TotalQuantitySold DESC
 ```
-> ![](./instructions337798/image52.png)
+> ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image52.png)
 
 11. To add a new query field, click on **+Add.**
 
-> ![](./instructions337798/image53.png)
+> ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image53.png)
 
 12. To add a second question in the question field:
 
 **+++What are the monthly sales trends for the last year?+++**
 
-![](./instructions337798/image54.png)
+![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image54.png)
 
 13. Add the query3 that you have saved in the notepad:
 
@@ -418,17 +419,17 @@ GROUP BY
 ORDER BY
     d.MonthNumberOfYear
 ```
-> ![](./instructions337798/image55.png)
+> ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image55.png)
 
 14. To add a new query field, click on **+Add.**
 
-> ![](./instructions337798/image56.png)
+> ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image56.png)
 
 15. To add a third question in the question field:
 
 +++Which product category has the highest average sales price?+++
 
-![](./instructions337798/image57.png)
+![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image57.png)
 
 16. Add the query4 that you have saved in the notepad:
 
@@ -445,14 +446,14 @@ GROUP BY
 ORDER BY
     AverageSalesPrice DESC
 ```
-> ![](./instructions337798/image58.png)
+> ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image58.png)
 
 17. Add all the queries and SQL queries that you have saved in Notepad,
     and then click on '**Export all'**
 
-> ![](./instructions337798/image59.png)
+> ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image59.png)
 
-![](./instructions337798/image60.png)
+![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image60.png)
 
 ## Task 5: Use the Data agent programmatically
 
@@ -467,24 +468,24 @@ determine whether or not the AI skill has a published URL value.
 1.  In the Data agent Fabric page, in the **Home** ribbon select
     the **Settings**.
 
-> ![](./instructions337798/image61.png)
+> ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image61.png)
 
 2.  Before you publish the AI skill, it doesn't have a published URL
     value, as shown in this screenshot.
 
 3.  Close the AI Skill setting.
 
-> ![](./instructions337798/image62.png)
+> ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image62.png)
 
 4.  In the **Home** ribbon, select the **Publish**.
 
-> ![](./instructions337798/image63.png)
+> ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image63.png)
 >
-> ![](./instructions337798/image64.png)
+> ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image64.png)
 
 5.  Click on the **View publishing details**
 
-> ![](./instructions337798/image65.png)
+> ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image65.png)
 
 6.  The published URL for the AI agent appears, as shown in this
     screenshot.
@@ -492,11 +493,11 @@ determine whether or not the AI skill has a published URL value.
 7.  Copy the URL and paste that in a notepad and then Save the notepad
     to use the information in the upcoming steps.
 
-> ![](./instructions337798/image66.png)
+> ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image66.png)
 
 8.  Select **Notebook1** in the left navigation pane.
 
-> ![](./instructions337798/image67.png)
+> ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image67.png)
 
 9.  Use the **+ Code** icon below the cell output to add a new code cell
     to the notebook, enter the following code in it and replace
@@ -504,9 +505,9 @@ determine whether or not the AI skill has a published URL value.
 
 +++%pip install "openai==1.70.0"+++
 
-> ![](./instructions337798/image68.png)
+> ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image68.png)
 >
-> ![](./instructions337798/image69.png)
+> ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image69.png)
 
 10. Use the **+ Code** icon below the cell output to add a new code cell
     to the notebook, enter the following code in it and replace
@@ -514,7 +515,7 @@ determine whether or not the AI skill has a published URL value.
 
 +++%pip install httpx==0.27.2+++
 
-> ![](./instructions337798/image70.png)
+> ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image70.png)
 
 11. Use the **+ Code** icon below the cell output to add a new code cell
     to the notebook, enter the following code in it and replace
@@ -605,9 +606,9 @@ pretty_print(response)
 # Delete thread
 fabric_client.beta.threads.delete(thread_id=thread.id)
 ```
-> ![](./instructions337798/image71.png)
+> ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image71.png)
 
-![](./instructions337798/image72.png)
+![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image72.png)
 
 ## **Task 6: Delete the resources**
 
@@ -615,26 +616,26 @@ fabric_client.beta.threads.delete(thread_id=thread.id)
     navigation menu. It opens the workspace item view.
 
 > ![A screenshot of a computer Description automatically
-> generated](./instructions337798/image73.png)
+> generated](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image73.png)
 
 2.  Select the **...** option under the workspace name and
     select **Workspace settings**.
 
 > ![A screenshot of a computer Description automatically
-> generated](./instructions337798/image74.png)
+> generated](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image74.png)
 
 3.  Select **Other** and **Remove this workspace.**
 
 > ![A screenshot of a computer Description automatically
-> generated](./instructions337798/image75.png)
+> generated](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image75.png)
 
 4.  Click on **Delete** in the warning that pops up.
 
 > ![A screenshot of a computer Description automatically
-> generated](./instructions337798/image76.png)
+> generated](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image76.png)
 >
 > ![A screenshot of a computer AI-generated content may be
-> incorrect.](./instructions337798/image77.png)
+> incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image77.png)
 
 **Summary:**
 
