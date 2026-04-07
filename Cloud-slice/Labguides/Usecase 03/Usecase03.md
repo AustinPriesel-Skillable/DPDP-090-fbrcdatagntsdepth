@@ -278,14 +278,16 @@ solution.
 
 7.  Provision and deploy all the resources:
 
-    +++azd up+++
+    >[!Alert] Due to security reasons, these resources have been pre-created for you. Please skip steps 7-9.
+    > To deploy all the necessary resources that have been created for you, the correct command would be:
+    > **azd up**
     
     ![](./media/image29.png)
 
-8.  Select below values.
+8.  You would then be asked to select below values.
 
     - **To create an environment for Azure resources**,
-      enter **+++Fabricagent@lab.LabInstance.Id**+++
+      enter **Fabricagent@lab.LabInstance.Id**
     
     - **Select an Azure Subscription to
       use** : **@lab.CloudSubscription.Name**
@@ -303,20 +305,22 @@ solution.
     
     ![](./media/image32.png)
 
-9.  This deployment will take *7-10 minutes* to provision the resources
+9.  This deployment typically takes *7-10 minutes* to provision the resources
     in your account and set up the solution with sample data.
 
-10. Now the deployment is complete
+    >[!Note] This is the reason for the wait time at the start of the lab. 
+
+11. Now the deployment is complete
     
     ![](./media/image33.png)
 
-11. Create and activate a virtual environment
+12. Create and activate a virtual environment
 
     +++python -m venv .venv+++
     
     ![](./media/image34.png)
 
-12. Use the top-left **menu icon** in **Visual Studio Code**, then
+13. Use the top-left **menu icon** in **Visual Studio Code**, then
     navigate to **Terminal → New Terminal** to open a new terminal
     window in the workspace
 
@@ -324,7 +328,7 @@ solution.
     
     ![](./media/image36.png)
 
-13. Run the following command in the terminal to install the required
+14. Run the following command in the terminal to install the required
     Python dependencies
 
     +++pip install uv && uv pip install -r scripts/requirements.txt+++
@@ -333,7 +337,7 @@ solution.
     
     ![](./media/image38.png)
 
-14. Run the following command on the Terminal. It generates the code to
+15. Run the following command on the Terminal. It generates the code to
     copy. Copy the code and press Enter.
 
     +++az login+++
@@ -344,12 +348,12 @@ solution.
     
     ![](./media/image41.png)
 
-15. Select your **Azure subscription** from the list to continue the
+16. Select your **Azure subscription** from the list to continue the
     setup process.
     
     ![](./media/image42.png)
 
-16. Run the bash script from the output of the azd deployment. Replace
+17. Run the bash script from the output of the azd deployment. Replace
     the with your Fabric workspace Id created in the previous steps. The
     script will look like the following:
 
@@ -357,7 +361,7 @@ solution.
     
     ![](./media/image43.png)
 
-17. Press Enter to start create resources
+18. Press Enter to start create resources
 
     ![](./media/image44.png)
     
