@@ -107,8 +107,9 @@ unstructured documents:
 ## Prerequisites
 
 - **GitHub Account: You are expected to have your own GitHub login
-  credentials.  
-  If you do not have an account, please create one by visiting:  
+  credentials.**
+    
+  >[Note] If you do not have an account, please create one by visiting:  
   +++https://github.com/signup?user_email=&source=form-home-signup+++
 
 ## Task 0: Create a GitHub account
