@@ -92,33 +92,31 @@ reports.
 
 2.  Fabric home page, select **+New workspace** tile.
 
-> ![A screenshot of a computer Description automatically
-> generated](./instructions339407/image1.png)
+    ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image1.png)
 
 3.  In the **Create a workspace** pane that appears on the right side,
     enter the following details, and click on the **Apply** button.
 
-| Property | Value |
-|---------|-------|
-| Name | +++Fabric-Copilot-@lab.LabInstance.Id+++ *(XXXXX can be Lab instance ID)* |
-| Advanced | Under **License mode**, select **Fabric** |
-| Default storage format | Small dataset storage format |
-| Template apps | Check **Develop template apps** |
+	| Property | Value |
+	|---------|-------|
+	| Name | +++Fabric-Copilot-@lab.LabInstance.Id+++ *(XXXXX can be Lab instance ID)* |
+	| Advanced | Under **License mode**, select **Fabric** |
+	| Default storage format | Small dataset storage format |
+	| Template apps | Check **Develop template apps** |
 
-> ![](./instructions339407/image2.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image2.png)
 
-Note: To find your lab instant ID, select 'Help' and copy the instant
-ID.
+    >[!Note]: To find your lab instant ID, select 'Help' and copy the instant ID.
 
-> ![A screenshot of a computer Description automatically
-> generated](./instructions339407/image3.png)
->
-> ![](./instructions339407/image4.png)
+    ![A screenshot of a computer Description automatically
+generated](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image3.png)
+
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image4.png)
 
 4.  Wait for the deployment to complete. It takes 2-3 minutes to
     complete.
 
-> ![](./instructions339407/image5.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image5.png)
 
 ## Task 2: Create a lakehouse and Ingest sample data
 
@@ -130,128 +128,125 @@ queries later.
 1.  Create a new lakehouse by clicking on the **+New item** button in
     the navigation bar.
 
-> ![](./instructions339407/image6.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image6.png)
 
 2.  On the **Filter by item type** search box,
     enter **+++Lakehouse+++** and select the lakehouse item.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./instructions339407/image7.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image7.png)
 
 3.  On the **New lakehouse** dialog box,
-    enter **+++fabricagent_lakehouse+++** in the **Name** field, click
+    enter +++fabricagent_lakehouse+++ in the **Name** field, click
     on the **Create** button and open the new lakehouse.
 
-	>[!note] Ensure to remove space
-before **fabricagent_lakehouse**.
+	>[!note] Ensure to remove space before **fabricagent_lakehouse**.
 
-> ![](./instructions339407/image8.png)
->
-> ![](./instructions339407/image9.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image8.png)
+
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image9.png)
 
 4.  Wait for the notification stating **Successfully created SQL
     endpoint**.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./instructions339407/image10.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image10.png)
 
 5.  In the **lakehouse** page, navigate to **Get data in your
     lakehouse** section, and click on **Upload files**
 
-> ![](./instructions339407/image11.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image11.png)
 
 6.  On the Upload files tab, click on the folder under the Files
 
-> ![](./instructions339407/image12.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image12.png)
 
 7.  Browse to **C:\LabFiles** on your VM, then select **customers.csv,
     Orders_Data.csv** and **products.csv** file and click
     on **Open** button.
 
-> ![](./instructions339407/image13.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image13.png)
 
 8.  Then, click on the **Upload** button and close
 
-![](./instructions339407/image14.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image14.png)
 
-![](./instructions339407/image15.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image15.png)
 
 9.  Click and select refresh on the **Files**. The file appears.
 
-![](./instructions339407/image16.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image16.png)
 
 10. In the **Lakehouse** page, Under the Explorer pane select Files.
     Now, however your mouse **Orders_Data.csv** file. Click on the
     horizontal ellipses **(…)** beside **Orders_Data.csv** . Navigate
     and click on **Load Table**, then select **New table**.
 
-![](./instructions339407/image17.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image17.png)
 
 11. In the **Load file to new table** dialog box, click on
     the **Load** button.
 
-![](./instructions339407/image18.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image18.png)
 
-![](./instructions339407/image19.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image19.png)
 
 12. Repeat the same process for **customers.csv** and **products.csv**
     to convert them into tables.
 
-![](./instructions339407/image20.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image20.png)
 
-![](./instructions339407/image21.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image21.png)
 
-![](./instructions339407/image22.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image22.png)
 
-![](./instructions339407/image23.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image23.png)
 
-![](./instructions339407/image24.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image24.png)
 
-![](./instructions339407/image25.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image25.png)
 
 13. Select **SQL analytics endpoint** from the **Lakehouse** drop-down
     menu at the top right of the screen.
 
-![](./instructions339407/image26.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image26.png)
 
 14. From the lakehouse **Home** tab, select **New semantic model** and
     select the tables that you want to add to the semantic model.
 
-![](./instructions339407/image27.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image27.png)
 
 16. In the **New semantic model** dialog enter +++**E-commerce Order
     Dataset**+++ and then select the **all** tables from the list of
     tables and select **Confirm** to create the new model.
 
-> ![](./instructions339407/image28.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image28.png)
 
 15. From the left menu, select **Fabric-Copilot-@lab.LabInstance.Id** workspace icon
     and then select workspace name.
 
-![](./instructions339407/image29.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image29.png)
 
 ## Task 3: Create a Fabric data agent
 
 1.  In the **Fabric-Copilot-@lab.LabInstance.Id** workspace page, navigate and click
     on **+New item** button, then select **Data agent**
 
-![](./instructions339407/image30.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image30.png)
 
 2.  Provide a name as +++DataAgent_@lab.LabInstance.Id+++ and click
     **Create**
 
-![](./instructions339407/image31.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image31.png)
 
 3.  Select **Add data source** to configure a new data source.
 
-![](./instructions339407/image32.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image32.png)
 
 4.  Select **E-commerce Order Dataset ** (Type: Semantic Model) from the
     results.
 
-![](./instructions339407/image33.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image33.png)
 
-![](./instructions339407/image34.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image34.png)
 
 5.  When you first ask the questions with the listed tables select **all
     tables** the data agent answers them fairly well.
@@ -259,16 +254,16 @@ before **fabricagent_lakehouse**.
 6.  For instance, for the question +++**Who are the top 10 customers by
     total purchase amount?**+++
 
-![](./instructions339407/image35.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image35.png)
 
 7.  Run the application and enter the sample questions to verify the
     responses.
 
 +++**Which day has the highest sales?**+++
 
-![](./instructions339407/image36.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image36.png)
 
-![](./instructions339407/image37.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image37.png)
 
 ## Task 4: Optimizing with Meta-Prompts
 
@@ -276,9 +271,9 @@ before **fabricagent_lakehouse**.
     (Alternatively, you can also locate the **Agent instructions** in
     the navigation bar on the top.)
 
-> ![](./instructions339407/image38.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image38.png)
 >
-> ![](./instructions339407/image39.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image39.png)
 
 2.  Generate agent-level instructions using this meta-prompt in
     the **test pane** (on the right where it says **Test the agent's
@@ -316,21 +311,21 @@ prompt as per the values below **OR** paste these in the Test:
 
 - {CUSTOM_TERMINOLOGY}: Leave empty or add your domain-specific terms
 
-![](./instructions339407/image40.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image40.png)
 
 8.  Test the enhanced agent with more complex queries:
 
  +++How many orders are placed each day?+++
 
-![](./instructions339407/image41.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image41.png)
 
-![](./instructions339407/image42.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image42.png)
 
  **+++Which products have the lowest stock levels?+++**
 
-![](./instructions339407/image43.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image43.png)
 
-![](./instructions339407/image44.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image44.png)
 
 ## Task 5: Publishing the Agent
 
@@ -340,14 +335,14 @@ prompt as per the values below **OR** paste these in the Test:
  Meta-Prompt: Generate Agent Description Create a 1-2 sentence description of yourself as a Fabric Data Agent (max 200 chars). Analyze your data sources and describe: what data domain you cover and what questions you answer. Example: "Fabric Data Agent for retail sales. Answers questions about revenue, products, customers, and orders". Output plain text only.
 ```
 
- ![](./instructions339407/image45.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image45.png)
 
 2.  Click **Publish** and paste the generated description in the purpose
     and capabilities field.
 
-> ![](./instructions339407/image46.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image46.png)
 >
-> ![](./instructions339407/image47.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image47.png)
 
 # Exercise 2: Connecting Fabric Agent to Copilot Studio
 
@@ -358,21 +353,21 @@ This exercise focuses on enabling Copilot Studio to communicate with the Fabric 
 1.  Open a new browser tab and navigate to 
     +++https://copilotstudio.microsoft.com/+++.
 
-> ![](./instructions339407/image48.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image48.png)
 
 2.  In the left navigation, select **Agents**
 
-> ![](./instructions339407/image49.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image49.png)
 
 3.  Click the blue **+Create blank agent** button.
 
-> ![](./instructions339407/image50.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image50.png)
 >
-> ![](./instructions339407/image51.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image51.png)
 
 4.  Click **Edit** to modify the settings.
 
-> ![](./instructions339407/image52.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image52.png)
 
 5.  Configure your agent with these settings:
 
@@ -384,44 +379,44 @@ This exercise focuses on enabling Copilot Studio to communicate with the Fabric 
 
     - **Instructions**: +++Copy the instructions from the code block below.+++
 
-> ![](./instructions339407/image53.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image53.png)
 >
-> ![](./instructions339407/image54.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image54.png)
 >
-> ![](./instructions339407/image55.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image55.png)
 >
-> ![](./instructions339407/image56.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image56.png)
 
 6.  Click **Publish** in the top-right corner.
 
-> ![](./instructions339407/image57.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image57.png)
 >
-> ![](./instructions339407/image58.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image58.png)
 
 ## Task 2: Adding the Fabric Agent as a connected agent for Copilot Studio
 
 1.  After agent creation, navigate to the **Agents** tab and click
     **+Add agent**
 
-> ![](./instructions339407/image59.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image59.png)
 
 2.  Click **Connect to an external agent** and select **Microsft Fabric (preview)**.
 
-> ![](./instructions339407/image60.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image60.png)
 
 3.  If it say's *Connection : Not connected* then click the drop down
     next to *Not connected* and select **Create new connection**. Verify
     it's showing as the email for your account, then click **Next**.
 
-> ![](./instructions339407/image61.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image61.png)
 
 4.  Click **Create** and sign in using the same account used for this lab
 
-![](./instructions339407/image62.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image62.png)
 
-![](./instructions339407/image63.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image63.png)
 
-![](./instructions339407/image64.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image64.png)
 
 5.  Select your Fabric Data Agent
 
@@ -429,21 +424,21 @@ This exercise focuses on enabling Copilot Studio to communicate with the Fabric 
 
     - Click to select it
 
-![](./instructions339407/image65.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image65.png)
 
 6.  Enter the **agent name** as **+++DataAgent-@lab.LabInstance.Id+++**,
     verify the **connection**, and then click **Add and configure** to
     proceed with the agent setup.
 
-![](./instructions339407/image66.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image66.png)
 
 7.  Click **Publish** to make the agent available for use
 
-![](./instructions339407/image67.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image67.png)
 
-![](./instructions339407/image68.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image68.png)
 
-![](./instructions339407/image69.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image69.png)
 
 ## Task 3: Testing the connected Fabric Data Agent
 
@@ -451,38 +446,38 @@ This exercise focuses on enabling Copilot Studio to communicate with the Fabric 
 
    **+++What are the top 10 highest value orders?+++**
 
-![](./instructions339407/image70.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image70.png)
 
 2.  Click **Allow** to grant the required permissions
 
-![](./instructions339407/image71.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image71.png)
 
-![](./instructions339407/image72.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image72.png)
 
-![](./instructions339407/image73.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image73.png)
 
-![](./instructions339407/image74.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image74.png)
 
-**Note:** The response generation process may take **5-6 minutes** to
+**    >[!Note]:** The response generation process may take **5-6 minutes** to
 complete.
 
 +++**What is the average price per category?+++**
 
-![](./instructions339407/image75.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image75.png)
 
-![](./instructions339407/image76.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image76.png)
 
   +++**What percentage of orders use credit card vs PayPal vs debit card?**+++
 
-![](./instructions339407/image77.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image77.png)
 
-![](./instructions339407/image78.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image78.png)
 
   +++**What is the revenue by payment method?**+++
 
-![](./instructions339407/image79.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image79.png)
 
-![](./instructions339407/image80.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image80.png)
 
 # Exercise 3: Connect the Fabric Data Agent to Teams
 
@@ -493,53 +488,53 @@ In this exercise, you will publish the Copilot agent to Teams, enabling business
 1.  In the **E-commerce RAG Agent**, click the **+ (Add)** icon and
     select **Channels** to configure the agent channel settings.
 
-![](./instructions339407/image81.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image81.png)
 
-![](./instructions339407/image82.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image82.png)
 
 2.  Select **Teams and Microsoft 365 Copilot**
 
-![](./instructions339407/image83.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image83.png)
 
 3.  Click Add Channel
 
-> ![](./instructions339407/image84.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image84.png)
 
 4.  Select **See agent in Teams** to open and test the agent in
     **Microsoft Teams**.
 
-![](./instructions339407/image85.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image85.png)
 
 5.  Click **Open Microsoft Teams**
 
-![](./instructions339407/image86.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image86.png)
 
-![](./instructions339407/image87.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image87.png)
 
 6.  Click **Sing in**
 
-![](./instructions339407/image88.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image88.png)
 
 7.  Enter your provided credentials to sign in and continue
 
-![](./instructions339407/image89.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image89.png)
 
-![](./instructions339407/image90.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image90.png)
 
-![](./instructions339407/image91.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image91.png)
 
-![](./instructions339407/image92.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image92.png)
 
 8.  Click **Add**
 
-![](./instructions339407/image93.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image93.png)
 
 9.  After the app is added successfully, click the *Open* button to
     launch the E‑commerce RAG Agent in Microsoft Teams
 
-> ![](./instructions339407/image94.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image94.png)
 
-![](./instructions339407/image95.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image95.png)
 
 ## Task 2: Testing the connected Fabric Data Agent
 
@@ -547,25 +542,25 @@ In this exercise, you will publish the Copilot agent to Teams, enabling business
 
   +++What is the revenue trend over time?+++
  
-> ![](./instructions339407/image96.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image96.png)
 
 2.  Click **Allow** to grant the required permissions
 
-> ![](./instructions339407/image97.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image97.png)
 >
-> ![](./instructions339407/image98.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image98.png)
 >
   +++What are the top 10 highest value orders?+++
 
-![](./instructions339407/image99.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image99.png)
 
-![](./instructions339407/image100.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image100.png)
 
 +++Which payment method is used the most?+++
 
-![](./instructions339407/image101.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image101.png)
 
-![](./instructions339407/image102.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2004/media/image102.png)
 
 **Summary**
 
