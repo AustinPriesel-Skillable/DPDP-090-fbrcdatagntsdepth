@@ -213,34 +213,33 @@ questions.
 1.  Now, click on **Fabric Data agent-@lab.LabInstance.Id** on the left-sided
     navigation pane.
 
-	![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image26.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image26.png)
 
 2.  In the **Fabric** home page, select **+New item.**
 
-	![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image27.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image27.png)
 
 3.  In the **Filter by item type** search box, enter **+++data agent+++** and select the **Data agent.**
 
-	![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image28.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image28.png)
 
 4.  Enter **+++AI-agent+++** as the Data agent name and
     select **Create**.
 
-	![A screenshot of a computer AI-generated content may be
-incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image29.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image29.png)
 
-	![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image30.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image30.png)
 
 5.  In AI-agent page, select **Add a data source**.
 
-	![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image31.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image31.png)
 
 6.  In the **OneLake catalog** tab, select the **AI-Fabric_lakehouse
     lakehouse** and select **Add**.
 
-	![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image32.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image32.png)
 
-	![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image33.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2001/media/image33.png)
 
 7.  You must then select the tables for which you want the AI skill to
     have available access.

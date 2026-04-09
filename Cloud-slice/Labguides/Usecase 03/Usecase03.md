@@ -346,15 +346,18 @@ solution.
 16. Run the bash script from the output of the azd deployment. Replace
     the with your Fabric workspace Id created in the previous steps. The
     script will look like the following:
+  
+    ```
+    python scripts/00_build_solution.py --from 02 --fabric-workspace-id <your-workspace-id>
+    ```
 
-    +++bash ./infra/scripts/fabric_scripts/run_fabric_items_scripts.sh < fabric-workspaceId >+++
-
+17. Press Enter to start create resources.
 
     ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2003/media/image43.png)
 
 ## Task 5: Review the Fabric Lakehouse and Data
 
-1.  Go to your +++**https://app.fabric.microsoft.com/**+++ workspace
+1.  Go to your +++https://app.fabric.microsoft.com/+++ workspace
 
 2.  Make sure resource got deployed successfully
 
