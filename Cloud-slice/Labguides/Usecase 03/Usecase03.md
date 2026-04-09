@@ -303,43 +303,6 @@ solution.
 
 1. Enter +++Fabricagent@lab.LabInstance.Id+++ as your unique environment name.
 
-7. Run these commands in the terminal.
-
-    ```
-    RG="ResourceGroup1"
-    AI_NAME=$(az cognitiveservices account list -g $RG --query "[0].name" -o tsv)
-    STORAGE_NAME=$(az storage account list -g $RG --query "[0].name" -o tsv)
-    SEARCH_NAME=$(az search service list -g $RG --query "[0].name" -o tsv)
-    MI_PID=$(az identity list -g $RG --query "[?contains(name,'backend-app-mi')].principalId" -o tsv)
-    MI_UID=$(az identity list -g $RG --query "[?contains(name,'backend-app-mi')].clientId" -o tsv)
-    AI_ENDPOINT=$(az cognitiveservices account list -g $RG --query "[0].properties.endpoint" -o tsv)
-    APP_NAME="app-$SUFFIX"
-    SUB_ID=$(az account show --query id -o tsv)
-    LOCATION=$(az group show -n $RG --query location -o tsv)
-    SUFFIX=$(echo $AI_NAME | sed 's/^aisa-//')
-	
-    azd env set AZURE_AI_PROJECT_ENDPOINT https://$AI_NAME.services.ai.azure.com/api/projects/aifp-$SUFFIX
-    azd env set AZURE_ENV_NAME Fabricagent$SUFFIX
-    azd env set AZURE_LOCATION $LOCATION
-    azd env set AZURE_SUBSCRIPTION_ID $SUB_ID
-    azd env set AZURE_RESOURCE_GROUP $RG
-    azd env set SOLUTION_NAME Fabricagent$SUFFIX
-    azd env set AI_SERVICE_NAME $AI_NAME
-    azd env set AZURE_AI_AGENT_ENDPOINT $AI_ENDPOINT
-    azd env set AZURE_STORAGE_ACCOUNT_NAME $STORAGE_NAME
-    azd env set AZURE_SEARCH_SERVICE_NAME $SEARCH_NAME
-    azd env set API_PID $MI_PID
-    azd env set API_UID $MI_UID
-    azd env set API_APP_NAME $APP_NAME
-    azd env set RESOURCE_GROUP_NAME $RG
-    azd env set USE_CASE insurance
-    ```
-
-
-1. Create the table that will be used in Fabric by running this command:
-	
-    +++python3 -c "import json; ins=json.load(open('infra/scripts/fabric_scripts/data/insurance_tables.json')); ret=json.load(open('infra/scripts/fabric_scripts/data/retail_tables.json')); merged={'tables': ins.get('tables', []) + ret.get('tables', [])}; json.dump(merged, open('infra/scripts/fabric_scripts/data/tables.json', 'w'), indent=2); print('Merged', len(merged['tables']), 'tables')"+++
-
 11. Create and activate a virtual environment
 
 	+++python -m venv .venv+++
@@ -407,11 +370,6 @@ solution.
 4.  Return to the **Codespace** to test the agent.
 
 ## Task 6: Test the agent
-
-
-1. Get the Fabric Workpace ID from the previous step and enter it as this environment variable. +++azd env set FABRIC_WORKSPACE_ID < fabric workspace id >+++
-
-1. Create the agent by entering this command +++python ./scripts/07_create_agent.py --connection-name srch-@lab.LabInstance.Id+++
 
 1.  To test the agent, run the following command in the terminal.
 
