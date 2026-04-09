@@ -1,4 +1,4 @@
-## Usecase 03- Connect Fabric Data Agent to Microsoft Foundry for unified and intelligent data insights
+## Usecase 03 - Connect Fabric Data Agent to Microsoft Foundry for unified and intelligent data insights
 **Introduction**
 
 Modern organizations generate large volumes of data across multiple
@@ -158,7 +158,7 @@ reports.
     |   |   |
     |---|---|
     | Username | +++@lab.CloudPortalCredential(User1).Username+++ |
-    | TAP | +++@lab.CloudPortalCredential(User1).TAP+++ |
+    | TAP | +++@lab.CloudPortalCredential(User1).AccessToken+++ |
 
 2.  Fabric home page, select **+New workspace** tile.
 
@@ -169,14 +169,14 @@ reports.
 
     | Property | Value |
     |---------|-------|
-    | Name | +++Fabricagent@lab.LabInstance.Id+++ **(XXXXX can be Lab instance ID)** |
+    | Name | +++Fabricagent@lab.LabInstance.Id+++ |
     | Advanced | Under **License mode**, select **Fabric** |
     | Default storage format | Small dataset storage format |
     | Template apps | Check **Develop template apps** |
 
 	![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2003/media/image8.png)
 
-    Note: To find your lab instant ID, select 'Help' and copy the instant
+    >[!Note] To find your lab instant ID, select 'Help' and copy the instant
     ID.
 
 	![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2003/media/image9.png)
@@ -198,7 +198,9 @@ solution.
 
 2.  Copy the **Workspace ID** from the URL (e.g.,
     https://app.fabric.microsoft.com/groups/{workspace-id}/...) and save
-    it in **Notepad** for later use![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2003/media/image12.png)
+    it in **Notepad** for later use
+
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2003/media/image12.png)
 
 ## Task 3: Open development environment
 
@@ -231,10 +233,10 @@ solution.
 
 1. Sign in with the following credentials:
 
-    | Properties  | Value |
-    | -------- | -------- |
-    | Username    | +++@lab.CloudPortalCredential(User1).Username+++|
-    | TAP | +++@lab.CloudPortalCredential(User1).AccessToken+++ |
+	| Properties  | Value |
+	| -------- | -------- |
+	| Username    | +++@lab.CloudPortalCredential(User1).Username+++|
+	| TAP | +++@lab.CloudPortalCredential(User1).AccessToken+++ |
 
 
 1. Select **Foundry**.
@@ -481,7 +483,7 @@ solution.
 
 	![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2003/media/image67.png)
     >
-    > Note: The Ontology set up may take up to 15 minutes so retry after
+    > >[!Note] The Ontology set up may take up to 15 minutes so retry after
     > some time if you don't see good responses.
 
 5.  To test the agent, run the application and enter the sample
