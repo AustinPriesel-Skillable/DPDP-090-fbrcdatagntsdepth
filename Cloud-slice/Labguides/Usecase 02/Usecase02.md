@@ -295,7 +295,7 @@ mirrored database, and validate that the data has synced successfully.
 
 	![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2002/media/image40.png)
 
-	![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2002/media/image41.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2002/media/image41.png)
 
 1.  In the left-sided navigation menu, navigate and click on
     ***FabricAgent-mirroringdatabase@lab.LabInstance.Id***, as shown in the below
