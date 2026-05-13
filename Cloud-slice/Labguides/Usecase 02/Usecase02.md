@@ -294,7 +294,7 @@ mirrored database, and validate that the data has synced successfully.
 9.  Click **Refresh** to update and view the latest changes.
 
 	![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2002/media/image40.png)
->
+
 	![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2002/media/image41.png)
 
 1.  In the left-sided navigation menu, navigate and click on
