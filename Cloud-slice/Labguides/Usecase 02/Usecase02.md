@@ -170,9 +170,11 @@ incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-f
 	![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2002/media/image20.png)
 
 14. Make sure all the sample tables have been successfully
-    deployed.![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2002/media/image21.png)
+    deployed.
 
-15. Go back to your SQL Database. Copy **Server name** (1) and **SQL
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2002/media/image21.png)
+
+16. Go back to your SQL Database. Copy **Server name** (1) and **SQL
     Database name** (2), paste them in a notepad, and then **Save** the
     notepad to use the information in the upcoming task.
 
@@ -198,7 +200,7 @@ incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-f
     status to **On**, and then click **Save** to apply the change.
 
 	![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2002/media/image27.png)
->
+
 	![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2002/media/image28.png)
 
 ## Task 2: Create a Fabric workspace
@@ -221,26 +223,24 @@ reports.
 
 2.  Fabric home page, select **+New workspace** tile.
 
-	![A screenshot of a computer Description automatically
-> generated](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2002/media/image29.png)
+	![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2002/media/image29.png)
 
 3.  In the **Create a workspace** pane that appears on the right side,
     enter the following details, and click on the **Apply** button.
 
-| Property | Value |
-|---------|-------|
-| Name | +++FabricAgent-mirroringdatabase@lab.LabInstance.Id+++ |
-| Advanced | Under **License mode**, select **Fabric** |
-| Default storage format | Small dataset storage format |
-| Template apps | Check **Develop template apps** |
+	| Property | Value |
+	|---------|-------|
+	| Name | +++FabricAgent-mirroringdatabase@lab.LabInstance.Id+++ |
+	| Advanced | Under **License mode**, select **Fabric** |
+	| Default storage format | Small dataset storage format |
+	| Template apps | Check **Develop template apps** |
 
 	![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2002/media/image30.png)
 
-> [!Note] To find your lab instant ID, select 'Help' and copy the instant ID.
+    >[!Note] To find your lab instant ID, select 'Help' and copy the instant ID.
 
-	![A screenshot of a computer Description automatically
-> generated](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2002/media/image31.png)
->
+	![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2002/media/image31.png)
+
 	![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2002/media/image32.png)
 
 4.  Wait for the deployment to complete. It takes 2-3 minutes to
@@ -273,12 +273,12 @@ mirrored database, and validate that the data has synced successfully.
 3.  In Connection settings tab enter the below detail and click on
     Connect button
 
-| Field | Value |
-|------|-------|
-| Server | SQL server URL saved in **Task 2 → Step 15** |
-| Database | Enter your SQL database |
-| Username | +++sqladmin+++ |
-| Password | +++password321!+++ |
+	| Field | Value |
+	|------|-------|
+	| Server | SQL server URL saved in **Task 2 → Step 15** |
+	| Database | Enter your SQL database |
+	| Username | +++sqladmin+++ |
+	| Password | +++password321!+++ |
 
 	![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2002/media/image37.png)
 
@@ -294,8 +294,8 @@ mirrored database, and validate that the data has synced successfully.
 9.  Click **Refresh** to update and view the latest changes.
 
 	![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2002/media/image40.png)
->
-	![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2002/media/image41.png)
+
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2002/media/image41.png)
 
 1.  In the left-sided navigation menu, navigate and click on
     ***FabricAgent-mirroringdatabase@lab.LabInstance.Id***, as shown in the below
@@ -358,13 +358,13 @@ queries.
 3.  To test the agent, run the application and enter the sample
     questions to verify the responses.
 
-+++List products with high list price but low sales volume.+++
+	+++List products with high list price but low sales volume.+++
 
 	![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2002/media/image51.png)
 
 	![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2002/media/image52.png)
 
-+++**List the cities with the highest number of customers**+++
+	+++List the cities with the highest number of customers+++
 
 	![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2002/media/image53.png)
 
@@ -396,8 +396,7 @@ queries.
 
 2.  Select **General** and **Remove this workspace.**
 
-	![A screenshot of a computer AI-generated content may be
-> incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2002/media/image61.png)
+	![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2002/media/image61.png)
 
 3.  Click on **Delete** in the warning that pops up.
 
@@ -415,8 +414,7 @@ queries.
     search bar, navigate and click on **Resource
     groups** under **Services**.
 
-	![A screenshot of a computer Description automatically
-generated](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2002/media/image64.png)
+	![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2002/media/image64.png)
 
 9.  In the Resource groups page, select your resource group.
 
