@@ -343,7 +343,9 @@ solution.
 	![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2003/media/image42.png)
 
 
-16. Run the bash script from the output of the azd deployment. Replace
+16. Open the **.env** file located under the **scripts** folder, remove the comment (#) from the begining of line 34 that contains the URI for the **Azure AI Search Service Endpoint**. Replace the placeholder with **Search Service (srch-@lab.labinstance.id) Url**
+   
+18. Run the bash script from the output of the azd deployment. Replace
     the with your Fabric workspace Id created in the previous steps. The
     script will look like the following:
   
@@ -351,7 +353,7 @@ solution.
     python scripts/00_build_solution.py --from 02 --fabric-workspace-id <your-workspace-id>
     ```
 
-17. Press Enter to start create resources.
+19. Press Enter to start create resources.
 
     ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPDP-090-fbrcdatagntsdepth/refs/heads/main/Cloud-slice/Labguides/Usecase%2003/media/image43.png)
 
